@@ -1,0 +1,90 @@
+@media (max-width: 576px) {
+    #col1{
+        background-color: rgb(223, 145, 0);
+        border: 3px solid white;
+    }
+    #col2{
+        background-color: rgb(255, 0, 0);
+        border: 3px solid white;
+        height: 300px;
+    }
+    #col3{
+        background-color: rgb(2, 230, 247);
+        border: 3px solid white;
+        height: 300px;
+    }
+    #col4{
+        background-color: rgb(182, 22, 22);
+        border: 3px solid white;
+        height: 300px;
+    }
+    #col5{
+        background-color: rgb(251, 255, 1);
+        border: 3px solid white;
+    }
+    #col6{
+        background-color: rgb(237, 247, 97);
+        border: 3px solid white;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    #col1{
+        background-color: rgb(0, 204, 255);
+        border: 3px solid white;
+    }
+    #col2{
+        background-color: rgb(255, 0, 0);
+        border: 3px solid white;
+        height: 300px;
+    }
+    #col3{
+        background-color: rgb(251, 66, 66);
+        border: 3px solid white;
+        height: 300px;
+    }
+    #col4{
+        background-color: rgb(59, 182, 22);
+        border: 3px solid white;
+        height: 300px;
+    }
+    #col5{
+        background-color: rgb(251, 255, 1);
+        border: 3px solid white;
+    }
+    #col6{
+        background-color: rgb(237, 247, 97);
+        border: 3px solid white;
+    }
+}
+@media (min-width: 768px) {
+    #col1{
+        background-color: rgb(0, 255, 51);
+        border: 3px solid white;
+    }
+    #col2{
+        background-color: rgb(255, 0, 0);
+        border: 3px solid white;
+        height: 300px;
+    }
+    #col3{
+        background-color: rgb(251, 66, 66);
+        border: 3px solid white;
+        height: 300px;
+    }
+    #col4{
+        background-color: rgb(182, 22, 22);
+        border: 3px solid white;
+        height: 300px;
+    }
+    #col5{
+        background-color: rgb(251, 255, 1);
+        border: 3px solid white;
+    }
+    #col6{
+        background-color: rgb(237, 247, 97);
+        border: 3px solid white;
+    }
+}
+
+
+

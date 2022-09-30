@@ -1,0 +1,553 @@
+<!--
+    ENTIDAD: Centro de Biotecnologia Agropecuraria
+    FICHA: 2558346
+    PROGRAMA: Analisis y desarrollo de Software - ADSO
+    AUTOR: Luis Gomez
+    OBJETIVO: Aprender el famework de bootstrap
+    FECHA CREACION: 29/08/2022
+    VERSION: 1
+    Fecha de modificacion: 30/09/2022 Luis Gomez
+    W3E Validator: OK
+-->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/maqueta7.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row text-center">
+            <div id="col1" class="col-12  col-sm-12 col-md-8 p-3">
+                <img src="./img/arriba1.jpg" id="arriba1" class="img-fluid" alt="header1">
+            </div>
+            <div id="col2" class="col-12 col-sm-12 col-md-4 p-3">
+                <img src="./img/arriba2.jpg" id="arriba2" class="img-fluid" alt="header2">
+            </div>
+        </div>
+        <div class="row text-center">
+            <div id="col3" class="col-12 col-sm-12 col-md-4 p-3">
+                <img src="./img/arriba5.jpg" class="img-fluid" id="arriba" alt="header1">
+            </div>
+            <div id="col4" class="col-12 col-sm-12 col-md-4 p-3">
+                <img src="./img/arriba3.jpg" class="img-fluid" width="500px" id="arriba" alt="header1">
+            </div>
+            <div id="col5" class="col-12 col-sm-12 col-md-4 p-3">
+                <img src="./img/arriba4.jpg" class="img-fluid" id="arriba" alt="header1">
+            </div>
+        </div>
+        <div class="row">
+            <div id="col6" class="col-12">
+                <h3 id="newarrivals" class="text-center p-4">New Arrivals</h3>
+            </div>
+        </div>
+        <div class="row productos123">
+            <div class="card col-12 col-sm-12 col-md-3 col-lg-2">
+                <br>
+                <img src="./img/producto1.jpg" class="card-img-top" alt="producto1">
+                <div class="card-body p-3">
+                    <h5 class="card-title">Leather mid-heel</h5>
+                    <p class="card-text precio">$129.00</p>
+                    <p class="estrellas">★★★☆☆</p>
+                    <br>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary position-absolute top-90 start-50 translate-middle"
+                        data-bs-toggle="modal" data-bs-target="#producto1">
+                        Ver mas
+                    </button>
+                </div>
+            </div>
+            <div class="card col-12 col-sm-12 col-md-3 col-lg-2">
+                <br>
+                <img src="./img/producto2.jpg" class="card-img-top" alt="producto1">
+                <div class="card-body">
+                    <h5 class="card-title">Cotton Pink Rose</h5>
+                    <p class="card-text precio"><del>$200</del> $25</p>
+                    <p class="estrellas">★★★★☆</p>
+                    <br>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary position-absolute top-90 start-50 translate-middle"
+                        data-bs-toggle="modal" data-bs-target="#producto2">
+                        Ver mas
+                    </button>
+                </div>
+            </div>
+            <div class="card col-12 col-sm-12 col-md-3 col-lg-2">
+                <br>
+                <img src="./img/producto3.jpg" class="card-img-top" alt="producto1">
+                <div class="card-body">
+                    <h5 class="card-title">Leather Sneakers</h5>
+                    <p class="card-text precio">$155.00</p>
+                    <p class="estrellas">☆☆☆☆☆</p>
+                    <br>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary position-absolute top-90 start-50 translate-middle"
+                        data-bs-toggle="modal" data-bs-target="#producto3">
+                        Ver mas
+                    </button>
+                </div>
+            </div>
+            <div class="card col-12 col-sm-12 col-md-3 col-lg-2">
+                <br>
+                <img src="./img/producto4.jpg" class="card-img-top" alt="producto1">
+                <div class="card-body">
+                    <h5 class="card-title">Cotton Pink Shirt</h5>
+                    <p class="card-text precio">$85.00</p>
+                    <p class="estrellas">★★☆☆☆</p>
+                    <br>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary position-absolute top-90 start-50 translate-middle"
+                        data-bs-toggle="modal" data-bs-target="#producto4">
+                        Ver mas
+                    </button>
+                </div>
+            </div>
+            <div class="card col-12 col-sm-12 col-md-3 col-lg-2">
+                <br>
+                <img src="./img/producto5.jpg" class="card-img-top" alt="producto1">
+                <div class="card-body">
+                    <h5 class="card-title">Cropped cotton top</h5>
+                    <p class="card-text precio">$50.00</p>
+                    <p class="estrellas">☆☆☆☆☆</p>
+                    <br>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary position-absolute top-90 start-50 translate-middle"
+                        data-bs-toggle="modal" data-bs-target="#producto5">
+                        Ver mas
+                    </button>
+                </div>
+            </div>
+            <div class="card col-12 col-sm-12 col-md-3 col-lg-2">
+                <br>
+                <img src="./img/producto6.jpg" class="card-img-top" alt="producto1">
+                <div class="card-body">
+                    <h5 class="card-title">Noral print mick</h5>
+                    <p class="card-text precio">$79.00</p>
+                    <p class="estrellas">☆☆☆☆☆</p>
+                    <br>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary position-absolute top-90 start-50 translate-middle"
+                        data-bs-toggle="modal" data-bs-target="#producto6">
+                        Ver mas
+                    </button>
+                </div>
+            </div>
+            <div class="card col-12 col-sm-12 col-md-3 col-lg-2">
+                <br>
+                <img src="./img/producto7.jpg" class="card-img-top" alt="producto1">
+                <div class="card-body">
+                    <h5 class="card-title">Sconde Body bag</h5>
+                    <p class="card-text precio">$39.00</p>
+                    <p class="estrellas">★★★★★</p>
+                    <br>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary position-absolute top-90 start-50 translate-middle"
+                        data-bs-toggle="modal" data-bs-target="#producto7">
+                        Ver mas
+                    </button>
+                </div>
+            </div>
+            <div class="card col-12 col-sm-12 col-md-3 col-lg-2">
+                <br>
+                <img src="./img/producto8.jpg" class="card-img-top" alt="producto1">
+                <div class="card-body">
+                    <h5 class="card-title">Sweather pocket</h5>
+                    <p class="card-text precio">$79.00</p>
+                    <p class="estrellas">★★★★☆</p>
+                    <br>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary position-absolute top-90 start-50 translate-middle"
+                        data-bs-toggle="modal" data-bs-target="#producto8">
+                        Ver mas
+                    </button>
+                </div>
+            </div>
+            <div class="card col-12 col-sm-12 col-md-3 col-lg-2">
+                <br>
+                <img src="./img/producto9.jpg" class="card-img-top" alt="producto1">
+                <div class="card-body">
+                    <h5 class="card-title">Printed aline</h5>
+                    <p class="card-text precio">$79.00</p>
+                    <p class="estrellas">★★★★★</p>
+                    <br>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary position-absolute top-90 start-50 translate-middle"
+                        data-bs-toggle="modal" data-bs-target="#producto9">
+                        Ver mas
+                    </button>
+                </div>
+            </div>
+            <div class="card col-12 col-sm-12 col-md-3 col-lg-2">
+                <br>
+                <img src="./img/producto10.jpg" class="card-img-top" alt="producto1">
+                <div class="card-body">
+                    <h5 class="card-title">Leather Sneakers</h5>
+                    <p class="card-text precio"><del>$149.00</del> $100.00</p>
+                    <p class="estrellas">★★★☆☆</p>
+                    <br>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary position-absolute top-90 start-50 translate-middle"
+                        data-bs-toggle="modal" data-bs-target="#producto10">
+                        Ver mas
+                    </button>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="producto1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Leather mid hell</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="./img/producto1.jpg" class="card-img-left w-25" alt="producto2">
+                            <div class="textocentro">
+                                <h1>Leather mid hell</h1>
+                                <h5 class="">Leather mid-heel</h5>
+                                <p class="precio">$129.00</p>
+                                <p class="estrellas">★★★☆☆</p>
+                                <h2>Cantidad</h2>
+                                <input type="text" name="texto" id="">
+                                <h2>Color</h2>
+                                <label for="negro">Negro </label>
+                                <input type="checkbox" name="Negro" id="">
+                                <label for="Gris">Gris </label>
+                                <input type="checkbox" name="Gris" id="">
+                                <label for="Cafe">Cafe </label>
+                                <input type="checkbox" name="Cafe" id="">
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="button" class="btn btn-primary">Añadir al carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="producto2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Cotton Pink</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="./img/producto2.jpg" class="card-img-left w-25" alt="producto2">
+                            <div class="textocentro">
+                                <h5>Cotton Pink</h5>
+                                <p class="precio"><del>$200</del> <br>$25</p>
+                                <p class="estrellas">★★★★☆</p>
+                                <h2>Cantidad</h2>
+                                <input type="text" name="texto" id="">
+                                <h2>Color</h2>
+                                <label for="negro">Negro </label>
+                                <input type="checkbox" name="Negro" id="">
+                                <label for="Gris">Gris </label>
+                                <input type="checkbox" name="Gris" id="">
+                                <label for="Cafe">Cafe </label>
+                                <input type="checkbox" name="Cafe" id="">
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="button" class="btn btn-primary">Añadir al carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="producto3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Leather Sneakers</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="./img/producto3.jpg" class="card-img-left w-25" alt="producto3">
+                            <div class="textocentro">
+                                <h5>Leather Sneakers</h5>
+                                <p class="precio">$155.00</p>
+                                <p class="estrellas">☆☆☆☆☆</p>
+                                <h2>Cantidad</h2>
+                                <input type="text" name="texto" id="">
+                                <h2>Color</h2>
+                                <label for="negro">Negro </label>
+                                <input type="checkbox" name="Negro" id="">
+                                <label for="Gris">Gris </label>
+                                <input type="checkbox" name="Gris" id="">
+                                <label for="Cafe">Cafe </label>
+                                <input type="checkbox" name="Cafe" id="">
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="button" class="btn btn-primary">Añadir al carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="producto4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Cotton Pink Shirt</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="./img/producto4.jpg" class="card-img-left w-25" alt="producto4">
+                            <div class="textocentro">
+                                <h5>Cotton Pink Shirt</h5>
+                                <p class="precio">$85.00</p>
+                                <p class="estrellas">★★☆☆☆</p>
+                                <h2>Cantidad</h2>
+                                <input type="text" name="texto" id="">
+                                <h2>Color</h2>
+                                <label for="negro">Negro </label>
+                                <input type="checkbox" name="Negro" id="">
+                                <label for="Gris">Gris </label>
+                                <input type="checkbox" name="Gris" id="">
+                                <label for="Cafe">Cafe </label>
+                                <input type="checkbox" name="Cafe" id="">
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="button" class="btn btn-primary">Añadir al carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="producto5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Cropped cotton top</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="./img/producto5.jpg" class="card-img-left w-25" alt="producto5">
+                            <div class="textocentro">
+                                <h5>Cropped cotton top</h5>
+                                <p class="precio">$50.00</p>
+                                <p class="estrellas">☆☆☆☆☆</p>
+                                <h2>Cantidad</h2>
+                                <input type="text" name="texto" id="">
+                                <h2>Color</h2>
+                                <label for="negro">Negro </label>
+                                <input type="checkbox" name="Negro" id="">
+                                <label for="Gris">Gris </label>
+                                <input type="checkbox" name="Gris" id="">
+                                <label for="Cafe">Cafe </label>
+                                <input type="checkbox" name="Cafe" id="">
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="button" class="btn btn-primary">Añadir al carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="producto6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Moral print mick dress</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="./img/producto6.jpg" class="card-img-left w-25" alt="producto6">
+                            <div class="textocentro">
+                                <h5>Noral print mick dress</h5>
+                                <p class="precio">$79.00</p>
+                                <p class="estrellas">☆☆☆☆☆</p>
+                                <h2>Cantidad</h2>
+                                <input type="text" name="texto" id="">
+                                <h2>Color</h2>
+                                <label for="negro">Negro </label>
+                                <input type="checkbox" name="Negro" id="">
+                                <label for="Gris">Gris </label>
+                                <input type="checkbox" name="Gris" id="">
+                                <label for="Cafe">Cafe </label>
+                                <input type="checkbox" name="Cafe" id="">
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="button" class="btn btn-primary">Añadir al carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="producto7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Sconde Body bag</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="./img/producto7.jpg" class="card-img-left w-25" alt="producto7">
+                            <div class="textocentro">
+                                <h5>Sconde Body bag</h5>
+                                <p class="precio">$39.00</p>
+                                <p class="estrellas">★★★★★</p>
+                                <h2>Cantidad</h2>
+                                <input type="text" name="texto" id="">
+                                <h2>Color</h2>
+                                <label for="negro">Negro </label>
+                                <input type="checkbox" name="Negro" id="">
+                                <label for="Gris">Gris </label>
+                                <input type="checkbox" name="Gris" id="">
+                                <label for="Cafe">Cafe </label>
+                                <input type="checkbox" name="Cafe" id="">
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="button" class="btn btn-primary">Añadir al carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="producto8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Sweather pocket</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="./img/producto8.jpg" class="card-img-left w-25" alt="producto8">
+                            <div class="textocentro">
+                                <h5>Sweather pocket</h5>
+                                <p class="precio">$79.00</p>
+                                <p class="estrellas">★★★★☆</p>
+                                <h2>Cantidad</h2>
+                                <input type="text" name="texto" id="">
+                                <h2>Color</h2>
+                                <label for="negro">Negro </label>
+                                <input type="checkbox" name="Negro" id="">
+                                <label for="Gris">Gris </label>
+                                <input type="checkbox" name="Gris" id="">
+                                <label for="Cafe">Cafe </label>
+                                <input type="checkbox" name="Cafe" id="">
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="button" class="btn btn-primary">Añadir al carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="producto9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Printed aline skirt</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="./img/producto9.jpg" class="card-img-left w-25" alt="producto9">
+                            <div class="textocentro">
+                                <h5>Printed aline skirt</h5>
+                                <p class="precio">$79.00</p>
+                                <p class="estrellas">★★★★★</p>
+                                <h2>Cantidad</h2>
+                                <input type="text" name="texto" id="">
+                                <h2>Color</h2>
+                                <label for="negro">Negro </label>
+                                <input type="checkbox" name="Negro" id="">
+                                <label for="Gris">Gris </label>
+                                <input type="checkbox" name="Gris" id="">
+                                <label for="Cafe">Cafe </label>
+                                <input type="checkbox" name="Cafe" id="">
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="button" class="btn btn-primary">Añadir al carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="producto9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Printed aline skirt</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="./img/producto9.jpg" class="card-img-left w-25" alt="producto9">
+                            <div class="textocentro">
+                                <h5>Printed aline skirt</h5>
+                                <p class="precio">$79.00</p>
+                                <p class="estrellas">★★★★★</p>
+                                <h2>Cantidad</h2>
+                                <input type="text" name="texto" id="">
+                                <h2>Color</h2>
+                                <label for="negro">Negro </label>
+                                <input type="checkbox" name="Negro" id="">
+                                <label for="Gris">Gris </label>
+                                <input type="checkbox" name="Gris" id="">
+                                <label for="Cafe">Cafe </label>
+                                <input type="checkbox" name="Cafe" id="">
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="button" class="btn btn-primary">Añadir al carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="producto10" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Leather Sneakers</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="./img/producto10.jpg" class="card-img-left w-25" alt="producto10">
+                            <div class="textocentro">
+                                <h5>Leather Sneakers</h5>
+                                <p class="precio"><del>$149.00</del><br> $100.00</p>
+                                <p class="estrellas">★★★☆☆</p>
+                                <h2>Cantidad</h2>
+                                <input type="text" name="texto" id="">
+                                <h2>Color</h2>
+                                <label for="negro">Negro </label>
+                                <input type="checkbox" name="Negro" id="">
+                                <label for="Gris">Gris </label>
+                                <input type="checkbox" name="Gris" id="">
+                                <label for="Cafe">Cafe </label>
+                                <input type="checkbox" name="Cafe" id="">
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="button" class="btn btn-primary">Añadir al carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>

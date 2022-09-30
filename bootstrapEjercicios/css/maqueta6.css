@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#col1 {
+    height: 550px;
+}
+
+#col2 {
+    height: 550px;
+}
+
+.compras {
+    height: 240px;
+    width: 200px;
+}
+
+h5 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.precio {
+    text-align: center;
+}
+
+.estrellas {
+    text-align: center;
+}
+
+
+#col6 {
+    margin-bottom: 40px;
+}
+
+#col7 {
+    margin-left: 30px;
+}
+
+#col10 {
+    margin-left: 30px;
+}
+
+#col13 {
+    margin-left: 30px;
+}
+
+#col16 {
+    margin-left: 30px;
+}
+
+#col19 {
+    margin-left: 30px;
+}
+
+#col22 {
+    margin-left: 30px;
+}
+
+#col25 {
+    margin-left: 30px;
+}
+
+#col28 {
+    margin-left: 30px;
+}
+
+#col31 {
+    margin-left: 30px;
+}
+
+#col34 {
+    margin-left: 30px;
+}
+
+#arriba1 {
+    margin-top: 10px;
+    ;
+    height: 500px;
+    width: 850px;
+}
+
+#arriba2 {
+    margin-top: 10px;
+    ;
+    height: 500px;
+    width: 400px;
+}
+
+#solotexto {
+    text-align: center;
+}
+
+#newarrivals {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

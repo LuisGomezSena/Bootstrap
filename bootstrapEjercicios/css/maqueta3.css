@@ -1,0 +1,30 @@
+#col1{
+    background-color: rgb(0, 255, 51);
+    border: 3px solid white;
+}
+#col3{
+    background-color: rgb(255, 222, 168);
+    border: 3px solid white;
+    height: 200px;
+}
+#col4{
+    background-color: rgb(251, 159, 0);
+    border: 3px solid white;
+    float: left;
+    height: 200px;
+}
+#col5{
+    background-color: rgb(251, 159, 0);
+    border: 3px solid white;
+    float: right;
+    height: 200px;
+}
+#col6{
+    background-color: rgb(0, 255, 149);
+    border: 3px solid white;
+    height: 400px;
+}
+#col7{
+    background-color: rgb(147, 98, 0);
+    border: 3px solid white;
+}

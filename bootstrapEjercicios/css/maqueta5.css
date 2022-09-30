@@ -1,0 +1,26 @@
+#col1{
+    background-color: rgb(110, 110, 110);
+    border: 3px solid white;
+}
+#col2{
+    background-color: rgb(168, 166, 166);
+    border: 3px solid white;
+}
+h1{
+    float: left;
+    margin-right: 30px;
+}
+#col3{
+    border: 3px solid white;
+}
+#col4{
+    border: 3px solid white;
+}
+#col5{
+    border: 3px solid white;
+    float: left;
+}
+#col6{
+    border: 3px solid white;
+    float: right;
+}
